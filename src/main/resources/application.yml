@@ -2,9 +2,9 @@ spring:
   datasource:
     #   数据源基本配置
     username: root
-    password: onspeed0
+    password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://cdb-bt6j5xwk.cd.tencentcdb.com:10069/concurrent_test?serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/concurrent_test?serverTimezone=UTC
     type: com.alibaba.druid.pool.DruidDataSource
     #   数据源其他配置
     initialSize: 5
